@@ -1,0 +1,145 @@
+.sign-up {
+    display: flex;
+    height: 100vh;
+}
+
+.bird {
+    width: 50%;
+}
+
+.s-form {
+    border-left: 1px solid rgb(47, 187, 187);
+    width: 50%;
+}
+
+.head {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    background-color: black;
+    border: 0.15rem solid grey;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.name {
+    transition: transform 1s;
+    margin-left: 0.7rem;
+}
+
+.name:hover,
+.pass:hover,
+.log-main-btn:hover {
+    transform: translateY(-0.3rem);
+}
+
+.pass {
+    transition: transform 1s;
+    margin-left: 0.5rem;
+}
+
+.log-main-btn {
+    width: 8rem;
+    transition: transform 1s;
+    /* border: 1px solid white; */
+    padding-top: 1rem;
+}
+
+.login {
+    margin-left: 0;
+    padding: 0.75rem 1.75rem;
+    border: 2px solid rgb(47, 187, 187);
+    border-radius: 1.55rem;
+    color: rgb(47, 187, 187);
+    cursor: pointer;
+    text-align: center;
+}
+
+.login:hover {
+    border: 2px solid rgb(4, 128, 128);
+    color: rgb(4, 128, 128);
+}
+
+.fp {
+    display: flex;
+    /* border: 1px solid white; */
+    /* padding-left: 1rem; */
+    color: rgb(47, 187, 187);
+    margin: 0.5rem 0 0 16rem;
+    font-size: small;
+    cursor: pointer;
+}
+
+.fp:hover {
+    color: rgb(4, 128, 128);
+}
+
+.t-bird {
+    /* border: 1px solid red; */
+    margin-left: 0px;
+    display: flex;
+}
+
+.img-bird {
+    /* border: 1px solid white; */
+    width: 3rem;
+    margin-left: 1.75rem;
+    margin-top: 4rem;
+}
+
+.happy {
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+    display: flex;
+    margin-left: 1.75rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.jt {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-left: 1.75rem;
+}
+
+.main-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-btn {
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(47, 187, 187);
+}
+
+.log-btn {
+    margin-top: 1rem;
+    color: rgb(47, 187, 187);
+}
+
+.sign-btn,
+.log-btn {
+    border: 1px solid rgb(47, 187, 187);
+    margin-left: 1.75rem;
+    width: 17rem;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.sign-btn:hover {
+    background-color: rgb(4, 128, 128);
+    border: 1px solid rgb(4, 128, 128);
+}
+
+.log-btn:hover {
+    border: 1px solid rgb(4, 128, 128);
+    color: rgb(4, 128, 128);
+}

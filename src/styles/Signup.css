@@ -1,0 +1,10 @@
+.sign-up {
+    height: 100vh;
+    background-color: black;
+}
+
+.s-box {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
